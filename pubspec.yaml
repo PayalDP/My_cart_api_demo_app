@@ -1,0 +1,38 @@
+name: my_cart
+version: 1.0.0+1
+publish_to: none
+description: A new Flutter project.
+environment:
+  sdk: '>=3.0.6 <4.0.0'
+
+dependencies:
+  cupertino_icons: ^1.0.2
+  get: 4.6.5
+  http: ^1.1.0
+  dotted_border: ^2.0.0+3
+  flutter:
+    sdk: flutter
+
+dev_dependencies:
+  flutter_lints: ^2.0.0
+  flutter_test:
+    sdk: flutter
+
+flutter:
+
+  assets:
+    - images/
+
+  fonts:
+    - family: semiBold
+      fonts:
+        - asset: assets/Poppins-SemiBold.ttf
+    - family: regular
+      fonts:
+        - asset: assets/Poppins-Regular.ttf
+    - family: medium
+      fonts:
+        - asset: assets/Poppins-Medium.ttf
+
+  uses-material-design: true
+
